@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANT's Kitchen</title>
+
+    <style>
+        p{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        body{
+             /* background-color:burlywood; */
+             background-color: beige;
+        }
+        .header{
+        padding: 10px;
+        background-color:rgb(253, 234, 198);
+        text-align: center;
+        
+         }
+        .section{
+        background-color:rgb(238, 208, 171);
+        padding: 10px;
+
+        }
+
+    
+            
+        .slide-img {
+            width: 300px;
+            /* Apply animation */
+            animation: slideLeft 1.5s ease-out;
+            border-radius: 10px;
+         }      
+    /* Animation */
+    @keyframes slideLeft {
+        from {
+            transform: translateX(-300px);
+            opacity: 0;
+        }
+        to{
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    nav{
+        background-color:orange;
+        padding: 10px;
+        text-align: center;
+        
+    }
+    nav a{
+        color: azure;
+        font-weight: bolder;
+        text-decoration: none;
+        margin: 15px;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-around;
+    }
+    footer{
+        background-color:orange;
+        padding: 10px;
+    }
+    .image{
+        text-align: center;
+    }
+    .BOOK{
+        text-align: center;
+        background-color:rgb(238, 208, 171);
+        padding: 10px;
+
+    }
+    
+
+    </style>
+</head>
+
+
+<body>
+    <div class="header">
+        <h1>
+            SANT'S  Kitchen🍽️
+        </h1>
+         <p>
+            <strong>
+                “Where Taste Meets Tradition”
+            </strong>
+        </p>
+    </div>
+    <hr size="5">
+
+
+    <div class="slide-img">
+        <img src="exteriorhotel1.png" height="350px" width="800px" hspace="280">
+    </div>
+    <!-- <div class="slide-img">
+        <img src="hotelinteroir.png" height="350px" width="700px">
+
+    </div> -->
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#Contact">Contact</a>
+        <a href="booking.html">Book a Table</a>
+    </nav>
+
+    <div class="section" id="about">
+        <p><strong>
+            <h2>ABOUT US:</h2>
+                Sant's Kitchen is a modern yet homely restaurant located in the heart of Pune, known for its delicious food and warm hospitality. Founded with a passion for authentic flavors, Sant's Kitchen brings together traditional recipes and contemporary taste.
+            The restaurant focuses on providing fresh, hygienic, and high-quality meals that feel like home-cooked food but with a restaurant-style experience.
+            </strong>
+        </p>
+    </div>  <br>
+
+    <div class="section" id="menu">
+        <h2>OUR MENU:</h2>
+        <div class="menu">
+            <div>
+                <h3>
+                    STARTERS:
+                </h3>
+                <P>Veg Manchurian-150</P>
+                <p> Panner Tikka - 180</p>
+                <P>Panner Kabab-200</P>
+            </div>
+            <div>
+                <h3>Main Course:</h3>
+                <p>Veg Thali-250</p>
+                <p>Bahubali Thali-300</p>
+                <p>Aamras Thali-300</p>
+                <p>Sant’s Special Thali-350</p>
+            </div>
+
+            <div>
+                <h3>
+                    Desserts:
+                </h3>
+                <p>Gulab Jamun-40</p>
+                <P>Brownie-70</P>
+                <p>Anjir Rabbdi-70</p>
+                <p>Ice Cream-80</p>
+            </div>
+
+            <div>
+                <h3>Drinks:</h3>
+                <p>Pudina Shots-90</p>
+                <p>Mocktail-120</p>
+                <p>Mojito-140</p>
+                <p>Macha-200</p>
+            </div>
+        </div>
+    </div><br>
+    <!-- <a href="booking.html">Book your Table</a> -->
+    
+    <div class="section" id="Contact">
+            <h3>Contact Us:</h3>
+            <p>📍Koregaon Park,Pune,Maharashtra</p>
+            <p>📞Contact:9822292405 </p>
+            <p>Email NO:Santskitchen@gmail.com</p>
+    </div><br>
+
+   
+
+    
+
+
+    <footer>
+        <p>© Sant's Kitchen|All Rights Reserved</p>
+    </footer>
+        
+        
+</body>
+</html>
+            
+       
+       
+           
+    
+        
+
+
+
+
+      
+    
+
+   
+  
+ 
+
+
+
+   

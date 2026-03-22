@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookingtable</title>
+    <style>
+        .header{
+            background-color:bisque;
+            padding: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        body{
+            background-color:beige;
+
+        }
+        .book{
+            text-align: center;
+             width: 350px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(172, 145, 145);
+        
+    }
+    .book button{
+        background-color: orange;
+        color: white;
+        padding:  10px;
+        margin: 10px ;
+        border-radius: 10px;
+    }
+    
+
+</style>
+</head>
+<body>
+    <div class="header">
+    <h1>
+        Sant’s Kitchen🍽️
+    </h1>
+    </div><hr size="5">
+
+         <div class="book" id="Book">
+        <h3>Book Your Table</h3>
+            <form>
+                Name:<input type="text" placeholder="Name" required><br>
+                <br>
+                Phone:<input type="tel" placeholder="Phone no"required min="10"><br><br>
+                Email ID:<input type="email" name="Email"><br><br>
+                Number of 
+                People:<input type="number" placeholder="People" required min="1"><br><br>
+                <button type="submit" onclick="alert('✅ Your table is booked!')">Book Now</button>
+            </form>
+    </div><BR>
+ 
+
+</body>
+</html>
+ 
+
+           
+        
+
+
